@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		097703C71C9976F3003A51F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 097703C61C9976F3003A51F4 /* main.m */; };
 		097703CA1C9976F3003A51F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 097703C91C9976F3003A51F4 /* AppDelegate.m */; };
-		097703CD1C9976F3003A51F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 097703CC1C9976F3003A51F4 /* ViewController.m */; };
 		097703D01C9976F3003A51F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097703CE1C9976F3003A51F4 /* Main.storyboard */; };
 		097703D21C9976F3003A51F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097703D11C9976F3003A51F4 /* Assets.xcassets */; };
 		097703D51C9976F3003A51F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097703D31C9976F3003A51F4 /* LaunchScreen.storyboard */; };
 		097703E01C9976F3003A51F4 /* NBsAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 097703DF1C9976F3003A51F4 /* NBsAlertViewTests.m */; };
 		097703EB1C9976F3003A51F4 /* NBsAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 097703EA1C9976F3003A51F4 /* NBsAlertViewUITests.m */; };
+		097703FA1C997712003A51F4 /* NBsAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 097703F91C997712003A51F4 /* NBsAlertView.m */; };
+		097704001C9994FF003A51F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 097703FF1C9994FF003A51F4 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		097703C61C9976F3003A51F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		097703C81C9976F3003A51F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		097703C91C9976F3003A51F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		097703CB1C9976F3003A51F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		097703CC1C9976F3003A51F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		097703CF1C9976F3003A51F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		097703D11C9976F3003A51F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		097703D41C9976F3003A51F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		097703E61C9976F3003A51F4 /* NBsAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBsAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		097703EA1C9976F3003A51F4 /* NBsAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBsAlertViewUITests.m; sourceTree = "<group>"; };
 		097703EC1C9976F3003A51F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		097703F81C997712003A51F4 /* NBsAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBsAlertView.h; sourceTree = "<group>"; };
+		097703F91C997712003A51F4 /* NBsAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBsAlertView.m; sourceTree = "<group>"; };
+		097703FE1C9994FF003A51F4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		097703FF1C9994FF003A51F4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +106,10 @@
 			children = (
 				097703C81C9976F3003A51F4 /* AppDelegate.h */,
 				097703C91C9976F3003A51F4 /* AppDelegate.m */,
-				097703CB1C9976F3003A51F4 /* ViewController.h */,
-				097703CC1C9976F3003A51F4 /* ViewController.m */,
+				097703FE1C9994FF003A51F4 /* ViewController.h */,
+				097703FF1C9994FF003A51F4 /* ViewController.m */,
+				097703F81C997712003A51F4 /* NBsAlertView.h */,
+				097703F91C997712003A51F4 /* NBsAlertView.m */,
 				097703CE1C9976F3003A51F4 /* Main.storyboard */,
 				097703D11C9976F3003A51F4 /* Assets.xcassets */,
 				097703D31C9976F3003A51F4 /* LaunchScreen.storyboard */,
@@ -270,9 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				097703CD1C9976F3003A51F4 /* ViewController.m in Sources */,
 				097703CA1C9976F3003A51F4 /* AppDelegate.m in Sources */,
 				097703C71C9976F3003A51F4 /* main.m in Sources */,
+				097704001C9994FF003A51F4 /* ViewController.m in Sources */,
+				097703FA1C997712003A51F4 /* NBsAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -400,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -412,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NBsAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DYT.NBsAlertView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NBsAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DYT.NBsAlertView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +504,7 @@
 				097703F11C9976F3003A51F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		097703F21C9976F3003A51F4 /* Build configuration list for PBXNativeTarget "NBsAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				097703F41C9976F3003A51F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		097703F51C9976F3003A51F4 /* Build configuration list for PBXNativeTarget "NBsAlertViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				097703F71C9976F3003A51F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

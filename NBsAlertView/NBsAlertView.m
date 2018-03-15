@@ -2,8 +2,8 @@
 /*!
  //  @header  NBsAlertView.m
  //  @abstarct 我叫段雨田
- 欢迎加我qq:476139183
- 如果是妹子可以电话联系:18565835927😄
+     欢迎加我qq:476139183
+     如果是妹子可以电话联系:18565835927😄
  //  NBsAlertView
  //  @author Created by Yutian Duan on 16/3/16.
  //  @version 1.00 16/3/16 Creation(版本信息)
@@ -102,7 +102,7 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 /**
  *  view初始化
  */
--(void)setup {
+- (void)setup {
   //内容视图
   contentView = [[UIView alloc]init];
   contentView.translatesAutoresizingMaskIntoConstraints = NO;
